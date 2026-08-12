@@ -12,6 +12,7 @@ sources:
   - RELEASE_NOTES_v0.6.5.md
 related:
   - docs/enfusion-mcp-BK obsidian/Knowledge/Lessons/index.md
+tags: [lesson, tool-surface]
 ---
 
 # Validate PAK chunk sizes and entry name lengths

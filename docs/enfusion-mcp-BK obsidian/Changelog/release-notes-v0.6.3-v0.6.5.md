@@ -15,6 +15,7 @@ sources:
 related:
   - docs/enfusion-mcp-BK obsidian/Changelog/index.md
   - docs/enfusion-mcp-BK obsidian/Roadmap.md
+tags: [changelog, tool-surface]
 ---
 
 # Release notes v0.6.3 - v0.6.5

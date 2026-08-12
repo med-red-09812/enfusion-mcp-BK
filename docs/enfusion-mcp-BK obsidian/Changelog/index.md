@@ -13,6 +13,7 @@ sources:
 related:
   - docs/enfusion-mcp-BK obsidian/Roadmap.md
   - docs/enfusion-mcp-BK obsidian/Changelog/release-notes-v0.6.3-v0.6.5.md
+tags: [index, changelog]
 ---
 
 # Changelog

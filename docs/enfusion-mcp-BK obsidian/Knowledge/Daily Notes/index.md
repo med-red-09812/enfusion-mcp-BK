@@ -9,6 +9,7 @@ last-reviewed: 2026-08-12
 sources:
   - docs/enfusion-mcp-BK obsidian/index.md
 related: []
+tags: [index, daily]
 ---
 
 # Daily Notes

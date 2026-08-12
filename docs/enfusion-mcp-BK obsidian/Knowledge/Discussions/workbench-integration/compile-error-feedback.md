@@ -12,6 +12,7 @@ sources:
   - UPGRADE_IDEAS.md
 related:
   - docs/enfusion-mcp-BK obsidian/Knowledge/Discussions/index.md
+tags: [discussion, workbench-integration]
 ---
 
 # Compilation error feedback + log capture

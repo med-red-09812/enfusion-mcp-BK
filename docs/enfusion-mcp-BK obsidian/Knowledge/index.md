@@ -13,6 +13,7 @@ related:
   - docs/enfusion-mcp-BK obsidian/Knowledge/Lessons/index.md
   - docs/enfusion-mcp-BK obsidian/Knowledge/Discussions/index.md
   - docs/enfusion-mcp-BK obsidian/Developer/index.md
+tags: [index, developer-doc]
 ---
 
 # enfusion-mcp-BK Knowledge Library
