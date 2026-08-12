@@ -19,6 +19,7 @@ related:
   - docs/enfusion-mcp-BK obsidian/index.md
   - docs/enfusion-mcp-BK obsidian/Changelog/index.md
   - docs/enfusion-mcp-BK obsidian/Knowledge/Discussions/index.md
+tags: [roadmap, tool-surface]
 ---
 
 # Roadmap

@@ -13,7 +13,8 @@ sources:
   - docs/plans/2026-03-02-scenario-create-objective.md
 related:
   - docs/enfusion-mcp-BK obsidian/Knowledge/Decisions/index.md
-  - docs/enfusion-mcp-BK obsidian/Knowledge/Discussions/scenario-create-objective-layer-file-write.md
+  - docs/enfusion-mcp-BK obsidian/Knowledge/Discussions/prefab-scenario-tooling/scenario-create-objective-layer-file-write.md
+tags: [decision, prefab-scenario-tooling]
 ---
 
 # scenario_create_objective as Orchestration Tool
@@ -57,4 +58,4 @@ Reusing the existing wb_entity_* tools avoids new Workbench-side handler scripts
 
 ## Related notes
 
-- [[Knowledge/Discussions/scenario-create-objective-layer-file-write|scenario_create_objective layer-file-write discussion]]
+- [[Knowledge/Discussions/prefab-scenario-tooling/scenario-create-objective-layer-file-write|scenario_create_objective layer-file-write discussion]]

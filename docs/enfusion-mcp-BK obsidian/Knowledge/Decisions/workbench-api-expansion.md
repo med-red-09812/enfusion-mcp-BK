@@ -14,6 +14,7 @@ sources:
 related:
   - docs/enfusion-mcp-BK obsidian/Knowledge/Decisions/index.md
   - docs/enfusion-mcp-BK obsidian/Roadmap.md
+tags: [decision, workbench-integration]
 ---
 
 # Workbench API Expansion Scope

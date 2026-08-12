@@ -14,6 +14,7 @@ sources:
 related:
   - docs/enfusion-mcp-BK obsidian/Knowledge/index.md
   - docs/enfusion-mcp-BK obsidian/Knowledge/Discussions/index.md
+tags: [index, lesson]
 ---
 
 # Lessons

@@ -16,6 +16,7 @@ sources:
 related:
   - docs/enfusion-mcp-BK obsidian/Knowledge/Decisions/index.md
   - docs/enfusion-mcp-BK obsidian/Knowledge/Decisions/prefab-ancestry-resolver.md
+tags: [decision, recipe-pattern-system]
 ---
 
 # Prefab Recipe System

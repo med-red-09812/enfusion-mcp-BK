@@ -1,24 +1,94 @@
 {
   "colorGroups": [
     {
-      "query": "path:Developer",
+      "query": "tag:#developer-doc",
       "color": {
         "a": 1,
         "rgb": 16749099
       }
     },
     {
-      "query": "path:Knowledge",
+      "query": "tag:#decision",
       "color": {
         "a": 1,
         "rgb": 6937468
       }
     },
     {
-      "query": "path:Changelog",
+      "query": "tag:#lesson",
+      "color": {
+        "a": 1,
+        "rgb": 4643712
+      }
+    },
+    {
+      "query": "tag:#discussion",
+      "color": {
+        "a": 1,
+        "rgb": 11184640
+      }
+    },
+    {
+      "query": "tag:#daily",
+      "color": {
+        "a": 1,
+        "rgb": 5592405
+      }
+    },
+    {
+      "query": "tag:#changelog",
       "color": {
         "a": 1,
         "rgb": 13393384
+      }
+    },
+    {
+      "query": "tag:#roadmap",
+      "color": {
+        "a": 1,
+        "rgb": 4682711
+      }
+    },
+    {
+      "query": "tag:#moc",
+      "color": {
+        "a": 1,
+        "rgb": 13684944
+      }
+    },
+    {
+      "query": "tag:#index",
+      "color": {
+        "a": 1,
+        "rgb": 10066329
+      }
+    },
+    {
+      "query": "tag:#recipe-pattern-system",
+      "color": {
+        "a": 1,
+        "rgb": 16761035
+      }
+    },
+    {
+      "query": "tag:#prefab-scenario-tooling",
+      "color": {
+        "a": 1,
+        "rgb": 4227328
+      }
+    },
+    {
+      "query": "tag:#workbench-integration",
+      "color": {
+        "a": 1,
+        "rgb": 13882323
+      }
+    },
+    {
+      "query": "tag:#tool-surface",
+      "color": {
+        "a": 1,
+        "rgb": 3158064
       }
     }
   ]

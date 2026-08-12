@@ -1,4 +1,5 @@
 {
   "folder": "Knowledge/Daily Notes",
-  "format": "YYYY-MM-DD"
+  "format": "YYYY-MM-DD",
+  "template": "Templates/Daily"
 }

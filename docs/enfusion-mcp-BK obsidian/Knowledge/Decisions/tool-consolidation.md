@@ -13,6 +13,7 @@ sources:
   - docs/superpowers/plans/2026-03-27-tool-discoverability.md
 related:
   - docs/enfusion-mcp-BK obsidian/Knowledge/Decisions/index.md
+tags: [decision, tool-surface]
 ---
 
 # Tool Consolidation 54 -> 47

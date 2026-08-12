@@ -14,6 +14,7 @@ related:
   - docs/enfusion-mcp-BK obsidian/Knowledge/Discussions/index.md
   - docs/enfusion-mcp-BK obsidian/Knowledge/Lessons/scenario-slot-direct-child.md
   - docs/enfusion-mcp-BK obsidian/Knowledge/Decisions/scenario-create-objective-orchestration.md
+tags: [discussion, prefab-scenario-tooling]
 ---
 
 # scenario_create_objective: write hierarchy directly to .layer

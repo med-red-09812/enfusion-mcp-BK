@@ -26,6 +26,7 @@ related:
   - docs/enfusion-mcp-BK obsidian/Roadmap.md
   - docs/enfusion-mcp-BK obsidian/Knowledge/index.md
   - docs/enfusion-mcp-BK obsidian/Changelog/index.md
+tags: [index, developer-doc]
 ---
 
 # Developer Documentation

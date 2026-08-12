@@ -12,7 +12,8 @@ sources:
   - TODO.md
 related:
   - docs/enfusion-mcp-BK obsidian/Knowledge/Lessons/index.md
-  - docs/enfusion-mcp-BK obsidian/Knowledge/Discussions/scenario-create-objective-layer-file-write.md
+  - docs/enfusion-mcp-BK obsidian/Knowledge/Discussions/prefab-scenario-tooling/scenario-create-objective-layer-file-write.md
+tags: [lesson, prefab-scenario-tooling]
 ---
 
 # Scenario Framework slots must be direct children of LayerTask
@@ -44,5 +45,5 @@ When building Scenario Framework hierarchies through the Workbench NET API, ensu
 
 ## Related notes
 
-- [[Knowledge/Discussions/scenario-create-objective-layer-file-write|scenario_create_objective layer-file-write discussion]]
+- [[Knowledge/Discussions/prefab-scenario-tooling/scenario-create-objective-layer-file-write|scenario_create_objective layer-file-write discussion]]
 - [[Knowledge/Decisions/scenario-create-objective-orchestration|scenario_create_objective orchestration decision]]

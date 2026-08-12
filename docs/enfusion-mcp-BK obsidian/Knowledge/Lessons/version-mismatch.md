@@ -12,6 +12,7 @@ sources:
   - RELEASE_NOTES_v0.6.3.md
 related:
   - docs/enfusion-mcp-BK obsidian/Knowledge/Lessons/index.md
+tags: [lesson, tool-surface]
 ---
 
 # Server version must match package.json

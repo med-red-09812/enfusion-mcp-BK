@@ -12,6 +12,7 @@ sources:
   - TODO.md
 related:
   - docs/enfusion-mcp-BK obsidian/Knowledge/Discussions/index.md
+tags: [discussion, prefab-scenario-tooling]
 ---
 
 # scenario_create_objective: spawn radius and multiple SlotAI
@@ -51,4 +52,4 @@ Both features are additive parameter extensions to the existing tool (spawn offs
 
 ## Related notes
 
-- [[Knowledge/Discussions/scenario-create-objective-layer-file-write|scenario_create_objective layer-file-write discussion]]
+- [[Knowledge/Discussions/prefab-scenario-tooling/scenario-create-objective-layer-file-write|scenario_create_objective layer-file-write discussion]]

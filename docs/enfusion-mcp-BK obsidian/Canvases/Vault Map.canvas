@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    { "id": "idx", "type": "text", "x": 40, "y": 40, "width": 260, "height": 120, "text": "**Vault index**\n\n[[index|Vault index]] - navigation hub" },
+    { "id": "roadmap", "type": "text", "x": 400, "y": 40, "width": 260, "height": 90, "text": "[[Roadmap|Roadmap]]\nrelease lineage + open work" },
+    { "id": "dev", "type": "text", "x": 400, "y": 170, "width": 260, "height": 90, "text": "[[Developer/index|Developer Docs]]\narchitecture + planning docs" },
+    { "id": "know", "type": "text", "x": 400, "y": 300, "width": 260, "height": 90, "text": "[[Knowledge/index|Knowledge Library]]\ndecisions, lessons, discussions, daily notes" },
+    { "id": "changelog", "type": "text", "x": 400, "y": 430, "width": 260, "height": 90, "text": "[[Changelog/index|Changelog]]\nv0.6.3 - v0.6.5 release notes" },
+    { "id": "templates", "type": "text", "x": 400, "y": 560, "width": 260, "height": 90, "text": "[[Templates/Decision|Templates]]\ndecision / discussion / lesson / daily" },
+    { "id": "moc1", "type": "text", "x": 760, "y": 40, "width": 280, "height": 90, "text": "[[Maps/Recipe Pattern System|Recipe / Pattern System]]\nrecipes, patterns, search ranking" },
+    { "id": "moc2", "type": "text", "x": 760, "y": 170, "width": 280, "height": 90, "text": "[[Maps/Prefab and Scenario Tooling|Prefab and Scenario Tooling]]\nancestry resolver + scenario objectives" },
+    { "id": "moc3", "type": "text", "x": 760, "y": 300, "width": 280, "height": 90, "text": "[[Maps/Workbench Integration|Workbench Integration]]\nlive Workbench surface + open questions" },
+    { "id": "moc4", "type": "text", "x": 760, "y": 430, "width": 280, "height": 90, "text": "[[Maps/Tool Surface and Releases|Tool Surface and Releases]]\ntool consolidation, hardening, releases" },
+    { "id": "decisions", "type": "text", "x": 1140, "y": 100, "width": 260, "height": 80, "text": "[[Knowledge/Decisions/index|Decisions]]\n5 notes" },
+    { "id": "lessons", "type": "text", "x": 1140, "y": 220, "width": 260, "height": 80, "text": "[[Knowledge/Lessons/index|Lessons]]\n4 notes" },
+    { "id": "disc", "type": "text", "x": 1140, "y": 340, "width": 260, "height": 80, "text": "[[Knowledge/Discussions/index|Discussions]]\n7 notes, 3 topics" },
+    { "id": "dailies", "type": "text", "x": 1140, "y": 460, "width": 260, "height": 80, "text": "[[Knowledge/Daily Notes/index|Daily Notes]]\nno entries yet" },
+    { "id": "disc-recipe", "type": "text", "x": 1500, "y": 300, "width": 240, "height": 70, "text": "[[Knowledge/Discussions/recipe-pattern-system/index|Recipe / Pattern System]]" },
+    { "id": "disc-prefab", "type": "text", "x": 1500, "y": 390, "width": 240, "height": 70, "text": "[[Knowledge/Discussions/prefab-scenario-tooling/index|Prefab & Scenario Tooling]]" },
+    { "id": "disc-wb", "type": "text", "x": 1500, "y": 480, "width": 240, "height": 70, "text": "[[Knowledge/Discussions/workbench-integration/index|Workbench Integration]]" }
+  ],
+  "edges": [
+    { "id": "e-idx-roadmap", "fromNode": "idx", "fromSide": "right", "toNode": "roadmap", "toSide": "left" },
+    { "id": "e-idx-dev", "fromNode": "idx", "fromSide": "right", "toNode": "dev", "toSide": "left" },
+    { "id": "e-idx-know", "fromNode": "idx", "fromSide": "right", "toNode": "know", "toSide": "left" },
+    { "id": "e-idx-changelog", "fromNode": "idx", "fromSide": "right", "toNode": "changelog", "toSide": "left" },
+    { "id": "e-idx-templates", "fromNode": "idx", "fromSide": "right", "toNode": "templates", "toSide": "left" },
+    { "id": "e-idx-moc1", "fromNode": "idx", "fromSide": "right", "toNode": "moc1", "toSide": "left" },
+    { "id": "e-idx-moc2", "fromNode": "idx", "fromSide": "right", "toNode": "moc2", "toSide": "left" },
+    { "id": "e-idx-moc3", "fromNode": "idx", "fromSide": "right", "toNode": "moc3", "toSide": "left" },
+    { "id": "e-idx-moc4", "fromNode": "idx", "fromSide": "right", "toNode": "moc4", "toSide": "left" },
+    { "id": "e-know-decisions", "fromNode": "know", "fromSide": "right", "toNode": "decisions", "toSide": "left" },
+    { "id": "e-know-lessons", "fromNode": "know", "fromSide": "right", "toNode": "lessons", "toSide": "left" },
+    { "id": "e-know-disc", "fromNode": "know", "fromSide": "right", "toNode": "disc", "toSide": "left" },
+    { "id": "e-know-dailies", "fromNode": "know", "fromSide": "right", "toNode": "dailies", "toSide": "left" },
+    { "id": "e-disc-recipe", "fromNode": "disc", "fromSide": "right", "toNode": "disc-recipe", "toSide": "left" },
+    { "id": "e-disc-prefab", "fromNode": "disc", "fromSide": "right", "toNode": "disc-prefab", "toSide": "left" },
+    { "id": "e-disc-wb", "fromNode": "disc", "fromSide": "right", "toNode": "disc-wb", "toSide": "left" }
+  ]
+}

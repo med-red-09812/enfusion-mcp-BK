@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    { "id": "roadmap", "type": "text", "x": 40, "y": 40, "width": 300, "height": 100, "text": "[[Roadmap|Roadmap]]\nrelease lineage v0.5.0 -> v0.12.0\n(current package version v0.10.0)" },
+    { "id": "v050", "type": "text", "x": 440, "y": 40, "width": 300, "height": 100, "text": "v0.5.0 - v0.6.2\n2026-02-23 -> 2026-03-05\ninitial releases; .aw parsing; Duplicate Project guidance" },
+    { "id": "v063", "type": "text", "x": 440, "y": 190, "width": 300, "height": 100, "text": "v0.6.3 - 2026-03-07\nupstream merge; wb_knowledge; search ranking + version mismatch fixes" },
+    { "id": "v064", "type": "text", "x": 440, "y": 340, "width": 300, "height": 100, "text": "v0.6.4 - 2026-03-08\nprefab_inspect; wb_component entityIndex support" },
+    { "id": "v065", "type": "text", "x": 440, "y": 490, "width": 300, "height": 100, "text": "v0.6.5 - 2026-03-11\nPAK bounds checks; config validation; fuzzy search; auto-fetch parent methods" },
+    { "id": "v06-010", "type": "text", "x": 440, "y": 640, "width": 300, "height": 100, "text": "v0.6.6 - v0.10.0\n2026-03-14 -> 2026-03-27\ntagged; no RELEASE_NOTES files in repo" },
+    { "id": "v011", "type": "text", "x": 440, "y": 790, "width": 300, "height": 100, "text": "v0.11.0 - 2026-04-02\nbuilding destruction workflow (MCP tool + plan)" },
+    { "id": "v012", "type": "text", "x": 440, "y": 940, "width": 300, "height": 100, "text": "v0.12.0 - 2026-07-13\nversion bump (upstream); not in origin history" },
+    { "id": "changelog", "type": "text", "x": 840, "y": 40, "width": 300, "height": 90, "text": "[[Changelog/index|Changelog]]\nonly versions with RELEASE_NOTES files" },
+    { "id": "relnotes", "type": "text", "x": 840, "y": 190, "width": 300, "height": 90, "text": "[[Changelog/release-notes-v0.6.3-v0.6.5|v0.6.3 - v0.6.5 release notes]]" },
+    { "id": "searchrank", "type": "text", "x": 840, "y": 340, "width": 300, "height": 90, "text": "[[Knowledge/Lessons/search-ranking-granularity|Search ranking lesson]]\nshipped in v0.6.3" },
+    { "id": "verrmismatch", "type": "text", "x": 840, "y": 470, "width": 300, "height": 90, "text": "[[Knowledge/Lessons/version-mismatch|Version mismatch lesson]]\nfixed in v0.6.3; regressed at 0.7.1 vs 0.10.0" },
+    { "id": "pakbounds", "type": "text", "x": 840, "y": 600, "width": 300, "height": 90, "text": "[[Knowledge/Lessons/pak-bounds-checks|PAK bounds lesson]]\nshipped in v0.6.5" },
+    { "id": "toolcons", "type": "text", "x": 840, "y": 730, "width": 300, "height": 90, "text": "[[Knowledge/Decisions/tool-consolidation|Tool consolidation decision]]\ndesign 2026-03-27, v0.10.0 era" }
+  ],
+  "edges": [
+    { "id": "e-roadmap-v050", "fromNode": "roadmap", "fromSide": "right", "toNode": "v050", "toSide": "left" },
+    { "id": "e-v050-v063", "fromNode": "v050", "fromSide": "bottom", "toNode": "v063", "toSide": "top" },
+    { "id": "e-v063-v064", "fromNode": "v063", "fromSide": "bottom", "toNode": "v064", "toSide": "top" },
+    { "id": "e-v064-v065", "fromNode": "v064", "fromSide": "bottom", "toNode": "v065", "toSide": "top" },
+    { "id": "e-v065-v06-010", "fromNode": "v065", "fromSide": "bottom", "toNode": "v06-010", "toSide": "top" },
+    { "id": "e-v06-010-v011", "fromNode": "v06-010", "fromSide": "bottom", "toNode": "v011", "toSide": "top" },
+    { "id": "e-v011-v012", "fromNode": "v011", "fromSide": "bottom", "toNode": "v012", "toSide": "top" },
+    { "id": "e-changelog-relnotes", "fromNode": "changelog", "fromSide": "bottom", "toNode": "relnotes", "toSide": "top" },
+    { "id": "e-relnotes-v063", "fromNode": "relnotes", "fromSide": "left", "toNode": "v063", "toSide": "right" },
+    { "id": "e-searchrank-v063", "fromNode": "searchrank", "fromSide": "left", "toNode": "v063", "toSide": "right" },
+    { "id": "e-verrmismatch-v063", "fromNode": "verrmismatch", "fromSide": "left", "toNode": "v063", "toSide": "right" },
+    { "id": "e-pakbounds-v065", "fromNode": "pakbounds", "fromSide": "left", "toNode": "v065", "toSide": "right" },
+    { "id": "e-toolcons-v06-010", "fromNode": "toolcons", "fromSide": "left", "toNode": "v06-010", "toSide": "right" }
+  ]
+}

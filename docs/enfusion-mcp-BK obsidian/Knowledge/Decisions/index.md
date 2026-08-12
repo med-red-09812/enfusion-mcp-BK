@@ -16,6 +16,7 @@ related:
   - docs/enfusion-mcp-BK obsidian/Knowledge/index.md
   - docs/enfusion-mcp-BK obsidian/Knowledge/Discussions/index.md
   - docs/enfusion-mcp-BK obsidian/Roadmap.md
+tags: [index, decision]
 ---
 
 # Decisions
