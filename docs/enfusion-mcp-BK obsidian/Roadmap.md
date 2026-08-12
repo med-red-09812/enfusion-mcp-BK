@@ -27,10 +27,10 @@ This page is a derived view. The GitHub tracker (med-red-09812/enfusion-mcp-BK) 
 
 ## Current state (derived from README.md, package.json, src/server.ts)
 
-- **Package version:** 0.10.0 (package.json; note src/index.ts still reports 0.7.1 - an observed mismatch, see "Uncertain claims" in the vault session report).
+- **Package version:** 0.10.0 (package.json; note src/index.ts still reports 0.7.1 - an observed mismatch).
 - **MCP surface:** offline tools (api_search, component_search, wiki_search/read, wb_knowledge, game_browse/read, asset_search, prefab, project, mod, script_create, config_create, layout_create, server_config, animation_graph, workshop_info, building_setup, game_duplicate, scenario_create_conflict) plus live Workbench tools (wb_*) - see README.md tool tables and src/server.ts registration list.
 - **Workbench plugin:** handler scripts ship in the package under mod/Scripts/WorkbenchGame/EnfusionMCP/ (20 EMCP_WB_*.c files) and are installed automatically on wb_launch.
-- **Recipe system:** documented in RECIPE_SYSTEM_OVERVIEW.md / RECIPE_ARCHITECTURE.txt; 12 recipe categories + 16 variants = 28 creation paths; release notes track v0.6.x iterations.
+- **Recipe system:** documented in RECIPE_SYSTEM_OVERVIEW.md / RECIPE_ARCHITECTURE.txt; 12 recipe categories + 17 variants = 29 creation paths (verified against data/recipes/*.json; the overview's own total line says "16 variants = 28 creation paths" - stale, its table lists 17); release notes track v0.6.x iterations.
 - **Mod patterns:** 10 built-in templates for mod_create (README.md "Mod Patterns" section).
 
 ## Release lineage (git tags + RELEASE_NOTES files)
@@ -45,7 +45,7 @@ Source: `git tag` ordering on the clone, plus RELEASE_NOTES_v0.6.3.md, RELEASE_N
 | v0.6.1 | 2026-03-01 | chore(release) |
 | v0.6.2 / v0.8.0 | 2026-03-05 | .aw workspace parsing, scenario slot fix, Duplicate Project guidance (same commit carries both tags) |
 | v0.6.3 | 2026-03-07 | wb_knowledge tool + upstream merge: component_search, wiki_read, class hierarchy tree, connection health tracking, inherited members, enum-like detection, handler script recovery; bug fixes (search ranking, version mismatch, array crash guard); ~300 lines deduplicated into game-paths.ts / dir-listing.ts; KB index caching |
-| v0.6.4 | 2026-03-08 | prefab_inspect tool (full inheritance chain, GUID-matched merging), wb_component entityIndex support, empty-name guard fixes |
+| `0.6.4` | 2026-03-08 | prefab_inspect tool (full inheritance chain, GUID-matched merging), wb_component entityIndex support, empty-name guard fixes. Note: this tag is `0.6.4` - no `v` prefix, the only tag breaking the convention |
 | v0.6.5 | 2026-03-11 | 10 bug fixes (enfusion-text escape round-trips, extractParamNames defaults, PAK bounds checks, GUID index error surfacing, scenario_create_objective cleanup, mod_create collision detection) + config semantic validation, fuzzy search (Levenshtein + trigram), script_create auto-fetch parent methods |
 | v0.6.6 | 2026-03-14 | tagged; no RELEASE_NOTES file in repo |
 | v0.7.0 | 2026-03-18 | tagged; no RELEASE_NOTES file in repo |

@@ -27,7 +27,7 @@ related:
 ## Evidence
 
 - Spec `2026-03-31-prefab-recipe-system-design.md` is marked "Status: Approved".
-- RECIPE_SYSTEM_OVERVIEW.md documents the implemented system: 12 recipe categories, 16 variants, 28 creation paths; recipe loader (182 lines), schema (55 lines), 12 JSON files (514 lines), prefab template (142 lines), prefab tool (332 lines).
+- RECIPE_SYSTEM_OVERVIEW.md documents the implemented system: 12 recipe categories, 17 variants, 29 creation paths; recipe loader (182 lines), schema (55 lines), 12 JSON files (514 lines), prefab template (142 lines), prefab tool (332 lines). Note: the overview's own total line says "16 variants = 28 creation paths" while its table lists 17 - source-internal contradiction; variant count verified against data/recipes/*.json (17 variants) during vault creation. Line counts verified against the tree: recipe.ts 55, recipe-loader.ts 182, data/recipes/*.json total 545 (overview states 514 - stale), prefab template 142, prefab tool 332.
 - RECIPE_ARCHITECTURE.txt documents architecture layers and the component merge strategy (ancestor GUIDs win, then recipe overrides, then user components).
 - Implementation exists in the tree: `src/templates/recipe.ts`, `src/templates/recipe-loader.ts`, `data/recipes/*.json` (12 files), `src/tools/prefab.ts` with variant parameter.
 
@@ -38,7 +38,7 @@ The approved approach is a hybrid: TypeScript schema for build-time validation, 
 ## Decision
 
 - Replace hardcoded `PREFAB_CONFIGS` with JSON recipes (12 categories: firearm, attachment, ground_vehicle, air_vehicle, character, prop, building, item, group, spawnpoint, gamemode, generic).
-- Add optional `variant` parameter (16 variants total, e.g. handgun/rifle/launcher/machinegun under firearm).
+- Add optional `variant` parameter (17 variants total: firearm 4, ground_vehicle 4, attachment 3, character 2, gamemode 2, prop 2; e.g. handgun/rifle/launcher/machinegun under firearm).
 - Remove old type names (weapon, vehicle, interactive); `prefabType` enum expands to 12 values.
 - Recipes define: defaultParent path, overrideComponents with placeholder values and guidance comments, postCreateNotes checklists.
 - Tool responses include post-creation checklists formatted as `[ ] Item`.

@@ -13,4 +13,4 @@ related: []
 
 # Daily Notes
 
-No entries yet. New notes use the matching template in [[Templates|Templates]] and start as draft. The GitHub tracker remains authoritative for decisions.
+No entries yet. New notes use the matching template in [[Templates/Decision|Templates]] and start as draft. The GitHub tracker remains authoritative for decisions.

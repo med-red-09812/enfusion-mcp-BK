@@ -25,7 +25,7 @@ The MCP surface had 54 tools, all deferred (Claude sees only names at session st
 
 - Design `2026-03-27-tool-discoverability-design.md` states the goal: reduce tool count from 54 to 47 by merging related families, plus add a session-start routing file.
 - The plan maps each merge: animation_graph (3 -> 1), prefab (2 -> 1), project (3 -> 1), mod (3 -> 1), scenario_create (partial, 3 -> 2).
-- Implementation exists in the tree: `src/tools/animation-graph.ts`, `src/tools/prefab.ts`, `src/tools/project.ts`, `src/tools/mod.ts`, `src/tools/scenario-create.ts` are multi-action tools with action discriminators (confirmed in src/server.ts registration list).
+- Implementation exists in the tree: `src/tools/animation-graph.ts`, `src/tools/prefab.ts`, `src/tools/project.ts`, `src/tools/mod.ts` are multi-action tools with action discriminators, and `src/tools/wb-scenario.ts` registers the consolidated `scenario_create` with `type: base|objective` (confirmed in src/server.ts registration list). `src/tools/scenario-create.ts` remains single-purpose: it registers only `scenario_create_conflict`.
 
 ## Inference / proposal
 

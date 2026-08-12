@@ -46,7 +46,7 @@ Generalize the existing script_create no-write behavior into a dryRun parameter 
 ## Verification boundary
 
 - Verified: item 10 is open in UPGRADE_IDEAS.md (not struck through; no PR reference).
-- Not verified: any implementation (no dryRun evidence found in src/tools during vault creation).
+- Not verified: dryRun implementation in any of the six scoped tools (mod, script, prefab, config, layout, project) - none found during vault creation. Note: `src/tools/building-setup.ts` already carries a `dryRun` parameter (line 165), but building_setup is outside the six-tool scope of item 10.
 - Evidence needed next: prompt-workflow design showing where preview fits.
 
 ## Related notes

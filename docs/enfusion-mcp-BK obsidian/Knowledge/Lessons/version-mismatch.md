@@ -23,7 +23,7 @@ A version mismatch existed between `index.ts` and `package.json` in the server. 
 ## Evidence
 
 - RELEASE_NOTES_v0.6.3.md, Bug Fixes: "Version mismatch - `index.ts` and `package.json` now always match."
-- Current tree observation (2026-08-12): `src/index.ts` still reports version "0.7.1" while `package.json` says 0.10.0 - the mismatch appears to have regressed after the v0.6.3 fix (see the vault session report under uncertain claims).
+- Current tree observation (2026-08-12): `src/index.ts` still reports version "0.7.1" while `package.json` says 0.10.0 - the mismatch appears to have regressed after the v0.6.3 fix.
 
 ## Inference / proposal
 

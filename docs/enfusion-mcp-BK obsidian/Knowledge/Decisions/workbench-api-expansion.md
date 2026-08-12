@@ -51,7 +51,9 @@ Each feature has two halves: an EnforceScript handler in `mod/Scripts/WorkbenchG
 ## Verification boundary
 
 - Verified: design and plan documents committed; scope items enumerated in both.
-- Not verified: whether all 8 items shipped in a release (RELEASE_NOTES files only cover v0.6.3-v0.6.5; v0.8.0 tag exists in git but has no notes file in this tree).
+- Verified (code): `listLanguages` action landed in `src/tools/wb-localization.ts:14,98`; `getWorldTransform` and `makeVisible` landed in `src/tools/wb-entities.ts:266,331` (still present in the tree).
+- Verified (git history): the new `wb_compile` tool was implemented in commit `ebed087` (2026-03-19, "feat: wb_compile tool for script compilation trigger") then reverted in commit `89ef43b` (2026-03-19, "fix: remove non-existent APIs... Remove wb_compile tool (ScriptEditor has no compile method)") - the tool does not exist in the current tree.
+- Not verified: whether the remaining scope items (Localization getTable bug fix and the other new actions) all shipped; RELEASE_NOTES files only cover v0.6.3-v0.6.5 and the v0.8.0 tag has no notes file in this tree.
 - Revisit trigger: v0.8.0+ release notes, or confirmation of which items landed.
 
 ## Related notes
