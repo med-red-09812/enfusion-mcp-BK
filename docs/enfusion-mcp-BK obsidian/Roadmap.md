@@ -44,7 +44,7 @@ Source: `git tag` ordering on the clone, plus RELEASE_NOTES_v0.6.3.md, RELEASE_N
 | v0.5.2 | 2026-02-28 | array-of-objects property editing |
 | v0.6.1 | 2026-03-01 | chore(release) |
 | v0.6.2 / v0.8.0 | 2026-03-05 | .aw workspace parsing, scenario slot fix, Duplicate Project guidance (same commit carries both tags) |
-| v0.6.3 | 2026-03-07 | wb_knowledge tool + upstream merge: component_search, wiki_read, class hierarchy tree, connection health tracking, inherited members, enum-like detection, handler script recovery; bug fixes (search ranking, version mismatch, array crash guard); ~300 lines deduplicated into game-paths.ts / dir-listing.ts; KB index caching |
+| v0.6.3 | 2026-03-07 | wb_knowledge tool + upstream merge: component_search, wiki_read, class hierarchy tree, connection health tracking, inherited members, enum-like detection, handler script recovery; bug fixes (search ranking, version mismatch, array crash guard); ~300 lines deduplicated into game-paths.ts / dir-listing.ts; KB index caching (KB data ships in data/kb/ - index.json + pattern .md files) |
 | `0.6.4` | 2026-03-08 | prefab_inspect tool (full inheritance chain, GUID-matched merging), wb_component entityIndex support, empty-name guard fixes. Note: this tag is `0.6.4` - no `v` prefix, the only tag breaking the convention |
 | v0.6.5 | 2026-03-11 | 10 bug fixes (enfusion-text escape round-trips, extractParamNames defaults, PAK bounds checks, GUID index error surfacing, scenario_create_objective cleanup, mod_create collision detection) + config semantic validation, fuzzy search (Levenshtein + trigram), script_create auto-fetch parent methods |
 | v0.6.6 | 2026-03-14 | tagged; no RELEASE_NOTES file in repo |

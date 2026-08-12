@@ -24,7 +24,7 @@ Should the server expose Workbench compilation errors and runtime logs to the LL
 
 - UPGRADE_IDEAS.md item 16 (OPEN - Tier 2): "After `wb_play` or `wb_reload` fails due to compilation errors, parse the Workbench response to extract file path, line number, and error message, then automatically `project_read` the failing file and present the error in context."
 - Second half: "Add a tool that reads Workbench's script compilation output and runtime `Print()` log... The Workbench NET API handler scripts (`mod/Scripts/WorkbenchGame/EnfusionMCP/`) already run inside Workbench's scripting environment and could potentially capture `Log.Info`/`Log.Error` output."
-- Quotes the create-mod prompt workflow (`src/prompts/create-mod.ts:143`): "If compilation failed (errors in the Workbench console), fix with project_write." - but notes Claude has no way to see those errors.
+- Quotes the create-mod prompt workflow (`src/prompts/create-mod.ts:143`): "If compilation failed (errors in the Workbench console), fix with project_write." - but notes Claude has no way to see those errors. (line number as cited in the source prompt; in the current tree the compilation-failed step is at create-mod.ts:145)
 - Listed Effort: M; Category: Modder Workflow. Proposed new files: `src/tools/wb-compile-errors.ts` or `src/tools/wb-log.ts`, `EMCP_WB_GetLog.c`.
 
 ## Inference / proposal

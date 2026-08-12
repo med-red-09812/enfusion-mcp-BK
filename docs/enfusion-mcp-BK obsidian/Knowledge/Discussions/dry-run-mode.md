@@ -22,7 +22,7 @@ Should `mod_create`, `script_create`, `prefab_create`, `config_create`, `layout_
 
 ## Evidence
 
-- UPGRADE_IDEAS.md item 10 (OPEN - Tier 1 quick win): "All creation tools immediately write to disk via writeFileSync. There's no way for Claude to preview what it's about to generate and course-correct before committing. `script_create` already has a partial pattern - when a file already exists (`src/tools/script-create.ts:78`), it returns the generated code without writing."
+- UPGRADE_IDEAS.md item 10 (OPEN - Tier 1 quick win): "All creation tools immediately write to disk via writeFileSync. There's no way for Claude to preview what it's about to generate and course-correct before committing. `script_create` already has a partial pattern - when a file already exists (`src/tools/script-create.ts:78`), it returns the generated code without writing." (line number as cited in UPGRADE_IDEAS.md; in the current tree the exists-check is at script-create.ts:99)
 - Listed Effort: S; Category: UX Polish.
 
 ## Inference / proposal
