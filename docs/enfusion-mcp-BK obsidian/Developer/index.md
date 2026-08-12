@@ -28,4 +28,4 @@ Developer docs here grow as work becomes real. Until then, this section indexes 
 
 ## Planned doc pages (created as work activates)
 
-- _(none yet â€” add pages here as they are created)_
+- _(none yet - add pages here as they are created)_
